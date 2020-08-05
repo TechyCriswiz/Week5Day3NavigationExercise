@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404443BB24DB3004002D3D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404443BA24DB3004002D3D59 /* AppDelegate.swift */; };
+		404443BD24DB3004002D3D59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404443BC24DB3004002D3D59 /* SceneDelegate.swift */; };
+		404443BF24DB3004002D3D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404443BE24DB3004002D3D59 /* ViewController.swift */; };
+		404443C224DB3004002D3D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404443C024DB3004002D3D59 /* Main.storyboard */; };
+		404443C424DB3005002D3D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404443C324DB3005002D3D59 /* Assets.xcassets */; };
+		404443C724DB3005002D3D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404443C524DB3005002D3D59 /* LaunchScreen.storyboard */; };
+		404443D224DB3005002D3D59 /* Cristian_S_NavigationExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404443D124DB3005002D3D59 /* Cristian_S_NavigationExerciseTests.swift */; };
+		404443DD24DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404443DC24DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests.swift */; };
+		404443EB24DB3290002D3D59 /* BMW IPhone Wallpaper.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 404443EA24DB3290002D3D59 /* BMW IPhone Wallpaper.jpeg */; };
+		404443ED24DB34F4002D3D59 /* BMW IPhone Wallpaper 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 404443EC24DB34F4002D3D59 /* BMW IPhone Wallpaper 2.jpg */; };
+		404443EF24DB3547002D3D59 /* 1272515.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 404443EE24DB3547002D3D59 /* 1272515.jpg */; };
+		404443F124DB35D6002D3D59 /* Bmw-Interior-1440x900.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 404443F024DB35D6002D3D59 /* Bmw-Interior-1440x900.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		404443CE24DB3005002D3D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 404443AF24DB3004002D3D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 404443B624DB3004002D3D59;
+			remoteInfo = Cristian_S_NavigationExercise;
+		};
+		404443D924DB3005002D3D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 404443AF24DB3004002D3D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 404443B624DB3004002D3D59;
+			remoteInfo = Cristian_S_NavigationExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		404443B724DB3004002D3D59 /* Cristian_S_NavigationExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cristian_S_NavigationExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		404443BA24DB3004002D3D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		404443BC24DB3004002D3D59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		404443BE24DB3004002D3D59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		404443C124DB3004002D3D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		404443C324DB3005002D3D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		404443C624DB3005002D3D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		404443C824DB3005002D3D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404443CD24DB3005002D3D59 /* Cristian_S_NavigationExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cristian_S_NavigationExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		404443D124DB3005002D3D59 /* Cristian_S_NavigationExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cristian_S_NavigationExerciseTests.swift; sourceTree = "<group>"; };
+		404443D324DB3005002D3D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404443D824DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cristian_S_NavigationExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		404443DC24DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cristian_S_NavigationExerciseUITests.swift; sourceTree = "<group>"; };
+		404443DE24DB3005002D3D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404443EA24DB3290002D3D59 /* BMW IPhone Wallpaper.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "BMW IPhone Wallpaper.jpeg"; path = "../../../BMW IPhone Wallpaper.jpeg"; sourceTree = "<group>"; };
+		404443EC24DB34F4002D3D59 /* BMW IPhone Wallpaper 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "BMW IPhone Wallpaper 2.jpg"; path = "../../../BMW IPhone Wallpaper 2.jpg"; sourceTree = "<group>"; };
+		404443EE24DB3547002D3D59 /* 1272515.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1272515.jpg; path = ../../../1272515.jpg; sourceTree = "<group>"; };
+		404443F024DB35D6002D3D59 /* Bmw-Interior-1440x900.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Bmw-Interior-1440x900.jpg"; path = "../../../Bmw-Interior-1440x900.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		404443B424DB3004002D3D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404443CA24DB3005002D3D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404443D524DB3005002D3D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		404443AE24DB3004002D3D59 = {
+			isa = PBXGroup;
+			children = (
+				404443B924DB3004002D3D59 /* Cristian_S_NavigationExercise */,
+				404443D024DB3005002D3D59 /* Cristian_S_NavigationExerciseTests */,
+				404443DB24DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests */,
+				404443B824DB3004002D3D59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		404443B824DB3004002D3D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				404443B724DB3004002D3D59 /* Cristian_S_NavigationExercise.app */,
+				404443CD24DB3005002D3D59 /* Cristian_S_NavigationExerciseTests.xctest */,
+				404443D824DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		404443B924DB3004002D3D59 /* Cristian_S_NavigationExercise */ = {
+			isa = PBXGroup;
+			children = (
+				404443BA24DB3004002D3D59 /* AppDelegate.swift */,
+				404443BC24DB3004002D3D59 /* SceneDelegate.swift */,
+				404443BE24DB3004002D3D59 /* ViewController.swift */,
+				404443C024DB3004002D3D59 /* Main.storyboard */,
+				404443C324DB3005002D3D59 /* Assets.xcassets */,
+				404443C524DB3005002D3D59 /* LaunchScreen.storyboard */,
+				404443EA24DB3290002D3D59 /* BMW IPhone Wallpaper.jpeg */,
+				404443EC24DB34F4002D3D59 /* BMW IPhone Wallpaper 2.jpg */,
+				404443EE24DB3547002D3D59 /* 1272515.jpg */,
+				404443F024DB35D6002D3D59 /* Bmw-Interior-1440x900.jpg */,
+				404443C824DB3005002D3D59 /* Info.plist */,
+			);
+			path = Cristian_S_NavigationExercise;
+			sourceTree = "<group>";
+		};
+		404443D024DB3005002D3D59 /* Cristian_S_NavigationExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				404443D124DB3005002D3D59 /* Cristian_S_NavigationExerciseTests.swift */,
+				404443D324DB3005002D3D59 /* Info.plist */,
+			);
+			path = Cristian_S_NavigationExerciseTests;
+			sourceTree = "<group>";
+		};
+		404443DB24DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				404443DC24DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests.swift */,
+				404443DE24DB3005002D3D59 /* Info.plist */,
+			);
+			path = Cristian_S_NavigationExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		404443B624DB3004002D3D59 /* Cristian_S_NavigationExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404443E124DB3005002D3D59 /* Build configuration list for PBXNativeTarget "Cristian_S_NavigationExercise" */;
+			buildPhases = (
+				404443B324DB3004002D3D59 /* Sources */,
+				404443B424DB3004002D3D59 /* Frameworks */,
+				404443B524DB3004002D3D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cristian_S_NavigationExercise;
+			productName = Cristian_S_NavigationExercise;
+			productReference = 404443B724DB3004002D3D59 /* Cristian_S_NavigationExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		404443CC24DB3005002D3D59 /* Cristian_S_NavigationExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404443E424DB3005002D3D59 /* Build configuration list for PBXNativeTarget "Cristian_S_NavigationExerciseTests" */;
+			buildPhases = (
+				404443C924DB3005002D3D59 /* Sources */,
+				404443CA24DB3005002D3D59 /* Frameworks */,
+				404443CB24DB3005002D3D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				404443CF24DB3005002D3D59 /* PBXTargetDependency */,
+			);
+			name = Cristian_S_NavigationExerciseTests;
+			productName = Cristian_S_NavigationExerciseTests;
+			productReference = 404443CD24DB3005002D3D59 /* Cristian_S_NavigationExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		404443D724DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404443E724DB3005002D3D59 /* Build configuration list for PBXNativeTarget "Cristian_S_NavigationExerciseUITests" */;
+			buildPhases = (
+				404443D424DB3005002D3D59 /* Sources */,
+				404443D524DB3005002D3D59 /* Frameworks */,
+				404443D624DB3005002D3D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				404443DA24DB3005002D3D59 /* PBXTargetDependency */,
+			);
+			name = Cristian_S_NavigationExerciseUITests;
+			productName = Cristian_S_NavigationExerciseUITests;
+			productReference = 404443D824DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		404443AF24DB3004002D3D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Cristian Salazar ";
+				TargetAttributes = {
+					404443B624DB3004002D3D59 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					404443CC24DB3005002D3D59 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 404443B624DB3004002D3D59;
+					};
+					404443D724DB3005002D3D59 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 404443B624DB3004002D3D59;
+					};
+				};
+			};
+			buildConfigurationList = 404443B224DB3004002D3D59 /* Build configuration list for PBXProject "Cristian_S_NavigationExercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 404443AE24DB3004002D3D59;
+			productRefGroup = 404443B824DB3004002D3D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				404443B624DB3004002D3D59 /* Cristian_S_NavigationExercise */,
+				404443CC24DB3005002D3D59 /* Cristian_S_NavigationExerciseTests */,
+				404443D724DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		404443B524DB3004002D3D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404443F124DB35D6002D3D59 /* Bmw-Interior-1440x900.jpg in Resources */,
+				404443C724DB3005002D3D59 /* LaunchScreen.storyboard in Resources */,
+				404443ED24DB34F4002D3D59 /* BMW IPhone Wallpaper 2.jpg in Resources */,
+				404443C424DB3005002D3D59 /* Assets.xcassets in Resources */,
+				404443EB24DB3290002D3D59 /* BMW IPhone Wallpaper.jpeg in Resources */,
+				404443C224DB3004002D3D59 /* Main.storyboard in Resources */,
+				404443EF24DB3547002D3D59 /* 1272515.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404443CB24DB3005002D3D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404443D624DB3005002D3D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404443B324DB3004002D3D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404443BF24DB3004002D3D59 /* ViewController.swift in Sources */,
+				404443BB24DB3004002D3D59 /* AppDelegate.swift in Sources */,
+				404443BD24DB3004002D3D59 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404443C924DB3005002D3D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404443D224DB3005002D3D59 /* Cristian_S_NavigationExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404443D424DB3005002D3D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404443DD24DB3005002D3D59 /* Cristian_S_NavigationExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		404443CF24DB3005002D3D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 404443B624DB3004002D3D59 /* Cristian_S_NavigationExercise */;
+			targetProxy = 404443CE24DB3005002D3D59 /* PBXContainerItemProxy */;
+		};
+		404443DA24DB3005002D3D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 404443B624DB3004002D3D59 /* Cristian_S_NavigationExercise */;
+			targetProxy = 404443D924DB3005002D3D59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		404443C024DB3004002D3D59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404443C124DB3004002D3D59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		404443C524DB3005002D3D59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404443C624DB3005002D3D59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		404443DF24DB3005002D3D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		404443E024DB3005002D3D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		404443E224DB3005002D3D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cristian_S_NavigationExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GenesysWorks.Cristian-S-NavigationExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		404443E324DB3005002D3D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cristian_S_NavigationExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GenesysWorks.Cristian-S-NavigationExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		404443E524DB3005002D3D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cristian_S_NavigationExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GenesysWorks.Cristian-S-NavigationExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cristian_S_NavigationExercise.app/Cristian_S_NavigationExercise";
+			};
+			name = Debug;
+		};
+		404443E624DB3005002D3D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cristian_S_NavigationExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GenesysWorks.Cristian-S-NavigationExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cristian_S_NavigationExercise.app/Cristian_S_NavigationExercise";
+			};
+			name = Release;
+		};
+		404443E824DB3005002D3D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cristian_S_NavigationExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GenesysWorks.Cristian-S-NavigationExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cristian_S_NavigationExercise;
+			};
+			name = Debug;
+		};
+		404443E924DB3005002D3D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cristian_S_NavigationExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GenesysWorks.Cristian-S-NavigationExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cristian_S_NavigationExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		404443B224DB3004002D3D59 /* Build configuration list for PBXProject "Cristian_S_NavigationExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404443DF24DB3005002D3D59 /* Debug */,
+				404443E024DB3005002D3D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404443E124DB3005002D3D59 /* Build configuration list for PBXNativeTarget "Cristian_S_NavigationExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404443E224DB3005002D3D59 /* Debug */,
+				404443E324DB3005002D3D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404443E424DB3005002D3D59 /* Build configuration list for PBXNativeTarget "Cristian_S_NavigationExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404443E524DB3005002D3D59 /* Debug */,
+				404443E624DB3005002D3D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404443E724DB3005002D3D59 /* Build configuration list for PBXNativeTarget "Cristian_S_NavigationExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404443E824DB3005002D3D59 /* Debug */,
+				404443E924DB3005002D3D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 404443AF24DB3004002D3D59 /* Project object */;
+}
